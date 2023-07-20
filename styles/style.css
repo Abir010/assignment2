@@ -741,9 +741,15 @@ footer {
     cursor: pointer;
 }
 
-
+/* ================================================================== */
 /* responsive area  */
 
+/* The rest of your CSS code remains the same */
+
+/* Mobile Responsive Styles */
+
+/* Adjust header for smaller screens */
+/* Common styles for both desktop and mobile */
 
 @media screen and (max-width: 600px) {
     .header-div {
@@ -776,6 +782,13 @@ footer {
         text-align: center;
     }
     /*  */
+    .container1-right #Group18{
+        height: 750px;
+        width: 900px;
+        margin-left: 20px;
+    }
+
+    /*  */
    
     #Group18{
         width: 300px;
@@ -783,11 +796,15 @@ footer {
     }
     .container2{
         flex-direction: column;
-        width: 200px;
-        height:100px;
-        padding: 2px;
-
+        
     }
+    .container2-left #pngwing4{
+            margin-left: 0;
+    }
+    .container2 .container2-right{
+        flex-direction: column;
+    }
+    
     .container2 p{
         font-size: small;
     }
@@ -918,4 +935,5 @@ footer {
         justify-content: center;
         margin: 0;
     }
+    
 }
